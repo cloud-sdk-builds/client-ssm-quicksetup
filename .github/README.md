@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ssm-quicksetup`](https://www.npmjs.com/package/@aws-sdk/client-ssm-quicksetup/v/3.863.0).
+[`@aws-sdk/client-ssm-quicksetup`](https://www.npmjs.com/package/@aws-sdk/client-ssm-quicksetup/v/3.864.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.863.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.864.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-pgYgoP8WJ5oyAcARUuHAE6EhLuSKFkxMaRv/s0DJAURjHod25OXzzCwCc0MxkmKZ
+sha384-txKXJLHo269aCkfMZ23nI0SbCsDse8ya62gyarj+wzW+l6Up0GsCiNcri0A3PJJx
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ssm-quicksetup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.863.0/index.min.mjs"
+            "@aws-sdk/client-ssm-quicksetup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.864.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.863.0/index.min.mjs": "sha384-pgYgoP8WJ5oyAcARUuHAE6EhLuSKFkxMaRv/s0DJAURjHod25OXzzCwCc0MxkmKZ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.864.0/index.min.mjs": "sha384-txKXJLHo269aCkfMZ23nI0SbCsDse8ya62gyarj+wzW+l6Up0GsCiNcri0A3PJJx"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ssm-quicksetup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.863.0/index.min.mjs"
+                        "@aws-sdk/client-ssm-quicksetup": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.864.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.863.0/index.min.mjs": "sha384-pgYgoP8WJ5oyAcARUuHAE6EhLuSKFkxMaRv/s0DJAURjHod25OXzzCwCc0MxkmKZ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-quicksetup@3.864.0/index.min.mjs": "sha384-txKXJLHo269aCkfMZ23nI0SbCsDse8ya62gyarj+wzW+l6Up0GsCiNcri0A3PJJx"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.863.0`)
+* Always pin to a specific version (`@3.864.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ssm-quicksetup/blob/refs/tags/3.863.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ssm-quicksetup/blob/refs/tags/3.864.0/LICENSE
 ```
 
 ---
